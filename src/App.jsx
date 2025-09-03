@@ -1,12 +1,12 @@
-// src/App.jsx
 import React from "react";
-import UserTable from "./components/UserTable";
+import Counter from "./components/Counter";
+// or import CounterWithHook from "./components/CounterWithHook";
 
-export default function App() {
+export default function App(){
   return (
-    <div style={{ fontFamily: "Arial, sans-serif" }}>
-      <h1 style={{ padding: 20 }}>User Table Demo</h1>
-      <UserTable />
+    <div>
+      <h1 style={{ padding: 20 }}>Demo</h1>
+      <Counter />
     </div>
-  );
+  )
 }
