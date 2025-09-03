@@ -1,11 +1,12 @@
-import React from 'react'
-import FruitList from './components/FruitList'
+// src/App.jsx
+import React from "react";
+import UserTable from "./components/UserTable";
 
-export default function App(){
+export default function App() {
   return (
-    <div style={{ padding: 24, fontFamily: 'Segoe UI, Roboto, system-ui' }}>
-      <h1>Fruit List — React.Fragment keys demo</h1>
-      <FruitList />
+    <div style={{ fontFamily: "Arial, sans-serif" }}>
+      <h1 style={{ padding: 20 }}>User Table Demo</h1>
+      <UserTable />
     </div>
-  )
+  );
 }
